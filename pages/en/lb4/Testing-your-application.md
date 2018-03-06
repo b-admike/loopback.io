@@ -650,7 +650,7 @@ to run a set of smoke tests to verify conformance of your app with the spec.
 
 Automated testing tools usually require little hints in your specification
 to tell them how to create valid requests or what response data to expect.
-Dredd in particular relies on response [examples](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/2.0.md#exampleObject)
+Dredd in particular relies on response [examples](https://github.com/OAI/OpenAPI-Specification/blob/master/versions/3.0.0.md#exampleObject)
 and request parameter [x-example](http://dredd.org/en/latest/how-to-guides.html#example-values-for-request-parameters)
 fields. Extending your API spec with examples is a good thing on its own, since
 developers consuming your API will find them useful too.
